@@ -54,7 +54,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     KC_TAB,  KC_QUOT, KC_COMM, KC_DOT,  KC_P,    KC_Y,    KC_F,    KC_G,    KC_C,    KC_R,    KC_L,    KC_SLSH,
     CTL_T(KC_ESC),  KC_A,    KC_O,    KC_E,    KC_U,    KC_I,    KC_D,    KC_H,    KC_T,    KC_N,    KC_S,    KC_MINUS,
     KC_LSFT, LT(_EXT, KC_SCLN), KC_Q,    KC_J,    KC_K,    KC_X,    KC_B,    KC_M,    KC_W,    KC_V,    KC_Z,    KC_RSFT,
-    KC_RIGHT_ALT, KC_LCTL, KC_LALT, KC_LGUI,  KC_SPC,  CTL_T(KC_ENT),  LT(_LOWER, KC_BSPC),  LT(_RAISE, KC_TAB),   KC_LEFT, KC_DOWN, KC_UP,   KC_RGHT
+    KC_RIGHT_ALT, KC_LCTL, KC_LALT, KC_LGUI,  KC_SPC,  CTL_T(KC_ENT),  LT(_LOWER, KC_BSPC),  LT(_RAISE, KC_TAB),   ALT_T(KC_LEFT), KC_DOWN, KC_UP,   KC_RGHT
 ),
 
 /* Lower
@@ -89,7 +89,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 [_RAISE] = LAYOUT_planck_grid(
     S(KC_GRV), S(KC_1), S(KC_2), S(KC_3), S(KC_4), S(KC_5),    S(KC_6),    S(KC_7),    S(KC_8),    S(KC_9),    S(KC_0),    KC_BSPC,
     KC_GRV,  KC_1,    KC_2,    KC_3,    KC_4,    KC_5,    KC_6,    KC_7,    KC_8,    KC_9,    KC_0,    KC_ENT,
-    _______, _______,   KC_HOME,   KC_END,   KC_DELETE,  _______,  _______,  KC_LBRC, KC_LBRC, KC_RBRC, KC_PGDN, _______,
+    _______, _______,   KC_HOME,   KC_END,   KC_DELETE,  _______,  _______,  KC_LEFT, KC_DOWN, KC_UP,   KC_RGHT , _______,
     _______, _______, _______, _______, _______, _______, _______, _______, KC_MNXT,    KC_VOLD, KC_VOLU, KC_MPLY
 ),
 
